@@ -1,4 +1,4 @@
- <style>
+ 
         *{margin:0;padding:0;box-sizing:border-box}
         :root{
             --bg:#07070d;--s1:#0f0f18;--s2:#161622;
@@ -203,4 +203,5 @@
             .cta-section h2{font-size:2em}
             .cta-wrap{padding:0 16px 20px}
         }
-    </style>
+    
+    
