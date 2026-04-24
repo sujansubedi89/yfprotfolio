@@ -128,6 +128,7 @@
         .proj-ico{width:52px;height:52px;border-radius:13px;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:1.5em;flex-shrink:0}
         .proj-ico.alt{background:var(--grad2)}.proj-ico.cloud{background:linear-gradient(135deg,#64c8ff,#00e5b0)}.proj-ico.data{background:linear-gradient(135deg,#ffa94d,#ff7eb3)}.proj-ico.devops{background:linear-gradient(135deg,#c896ff,#7c6fff)}
         .proj-card h3{font-family:'Syne',sans-serif;font-size:1.2em;font-weight:800;color:var(--text);margin-bottom:4px}
+         .proj-card:hover{border-color:rgba(124,111,255,0.25);transform:translateX(4px)}
         .proj-domain{font-size:0.75em;color:var(--p2);font-weight:700;text-transform:uppercase;letter-spacing:0.05em}
         .proj-desc{color:var(--muted);font-size:0.9em;line-height:1.7;margin-bottom:20px}
         .proj-tags{display:flex;flex-wrap:wrap;gap:7px}
