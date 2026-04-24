@@ -123,8 +123,7 @@
         .proj-card{background:var(--s2);border:1px solid var(--border);border-radius:20px;padding:32px;transition:all 0.4s ease;position:relative;overflow:hidden;opacity:0;transform:translateY(20px)}
         .proj-card.animate{opacity:1;transform:translateY(0)}
         .proj-card::after{content:'';position:absolute;inset:-1px;border-radius:20px;background:var(--grad);opacity:0;z-index:-1;transition:opacity 0.4s}
-        .proj-card:hover{transform:translateY(-10px);box-shadow:0 20px 50px rgba(124,111,255,0.12)}
-        .proj-card:hover::after{opacity:1}
+        
         .proj-top{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
         .proj-ico{width:52px;height:52px;border-radius:13px;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:1.5em;flex-shrink:0}
         .proj-ico.alt{background:var(--grad2)}.proj-ico.cloud{background:linear-gradient(135deg,#64c8ff,#00e5b0)}.proj-ico.data{background:linear-gradient(135deg,#ffa94d,#ff7eb3)}.proj-ico.devops{background:linear-gradient(135deg,#c896ff,#7c6fff)}
